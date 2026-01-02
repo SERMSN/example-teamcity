@@ -32,6 +32,7 @@ public class WelcomerTest {
 	}
 	@Test
 	public void welcomerSaysWRCS() {
+		//NEW
 		assertThat(welcomer.sayWelcome(), containsString("hunter"));
 	}
 }
